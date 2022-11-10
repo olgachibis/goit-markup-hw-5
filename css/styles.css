@@ -203,21 +203,29 @@ text-transform: uppercase;
 
     width: 528px;
     height: 581px;
-    
+   
     background-color: var(--secondary-white-color);
 }
-.modal-icon-close{
-    display: block;
-    justify-content: flex-end;
+ .modal-icon-close{
+   
     border-radius: 50%;
     fill: var(--social-color);
-}
+} 
 .modal-icon{
-    padding: 6px;
-    border-radius: 50%;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+border-radius: 50%;
+    background: transparent;
+    
+    /* border-radius: 50%;
     border: 1px solid rgba(0, 0, 0, 0.1);
     background-color: var(--primary-text-color) ;
-    cursor: pointer;
+    cursor: pointer; */
 }
 .section{
     padding-bottom:94px;

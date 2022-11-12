@@ -439,8 +439,8 @@ letter-spacing: 0.03em;
 fill: var(--accent-color);
 }
 
-.our-clients .item:hover,
-.our-clients .item:focus {
+.our-clients .clients-link:hover,
+.our-clients .clients-link:focus {
 border: 1px solid var(--accent-color);
 
 }
